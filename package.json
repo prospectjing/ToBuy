@@ -1,0 +1,19 @@
+{
+  "name": "tobuy",
+  "version": "1.0.0",
+  "description": "精炼技术，找到工作！！！！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prospectjing/ToBuy.git"
+  },
+  "author": "jing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prospectjing/ToBuy/issues"
+  },
+  "homepage": "https://github.com/prospectjing/ToBuy#readme"
+}
