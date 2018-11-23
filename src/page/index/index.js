@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-11-17 19:45:34
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-11-20 17:15:46
+* @Last Modified time: 2018-11-22 10:52:56
 */
 // var $$ = require('jquery');
 // $$('body').text("fdasss");
@@ -14,7 +14,7 @@
 
 
 // console.log('this is index.html');
-// var _util = require('util/util.js');
+var _util = require('util/util.js');
 
 // _util.request({
 //     url:'http://happymmall/product/list.do?keyword=1',

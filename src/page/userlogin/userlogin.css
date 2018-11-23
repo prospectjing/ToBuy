@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-11-21 17:07:01
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-11-21 20:45:24
+* @Last Modified time: 2018-11-22 09:39:14
 */
 .nav-single{
     height: 60px;
@@ -47,6 +47,7 @@
     border: 1px solid red;
     color:red;
     background: #fde9e9;
+    display: none;
 }
 .error-icon{
     position: absolute;

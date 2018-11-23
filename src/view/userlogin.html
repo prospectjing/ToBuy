@@ -7,7 +7,7 @@
 </head>
 
 <body>
-   <%= require('html-loader!./layout/nav.html')%>
+   <!-- <%= require('html-loader!./layout/nav.html')%> -->
    <%= require('html-loader!./layout/nav-single.html')%>
    <div class="page-wrap">
        <div class="w">
@@ -16,20 +16,20 @@
                  <div class="user-box">
                     <div class="error-item">
                         <i class="fa fa-minus-circle error-icon"></i>
-                        error
+                        <p class="err-msg">Error</p>
                     </div>
-                   <div class="user-item">
+               <div class="user-item">
                    <label class="user-item-label" for="username"><i class="fa fa-user"></i></label>
-                   <input type="text" class="user-id" id="username" placeholder="请输入用户名" autocomplete="off">
-                  </div>
+                   <input type="text" class="user-id user-input" id="username" placeholder="请输入用户名" autocomplete="off">
+               </div>
                <div class="user-item">
                    <label class="user-item-label" for="userpassword"><i class="fa fa-lock"></i></label>
-                   <input type="text" class="user-password" id="userpassword" placeholder="请输入密码" autocomplete="off">
+                   <input type="password" class="user-password user-input" id="userpassword" placeholder="请输入密码" autocomplete="off">
                </div>
-               <a href="#" class="btn btn-submit">登录</a>
+               <a  class="btn btn-submit" id="submit">登录</a>
                <div class="link-item">
                    <a href="./user-pass-reset.html" class="link" target="_blank">忘记密码</a>
-                   <a href="./user-register.html" class="link" target="_blank">免费注册</a>
+                   <a href="./userregister.html" class="link" target="_blank">免费注册</a>
                </div>
                </div>
            </div>

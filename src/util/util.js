@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-11-18 15:27:55
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-11-21 17:10:04
+* @Last Modified time: 2018-11-23 17:27:01
 */
 var conf = {
   serverHost:''
@@ -35,7 +35,7 @@ var _util = {
            }
            //请求数据错误
            else if(1 === res.status){
-              typeof param.error === 'function' && param.error(err.msg)
+              typeof param.error === 'function' && param.error(res.msg)
            }
         },
         error   : function(err){
@@ -72,7 +72,7 @@ var _util = {
    successTips:function(msg){
         alert(msg||'success，好开心噶！！！');
    },
-   errorTips:function(){
+   errorTips:function(msg){
        alert(msg||"error 哪里出错了吧！！！");
    },
    validate:function(value,type){

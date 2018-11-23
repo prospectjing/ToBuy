@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-11-20 14:34:56
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-11-20 17:13:41
+* @Last Modified time: 2018-11-23 16:50:25
 */
 require('./nav-side.css');
 var _util = require('util/util.js');
@@ -13,7 +13,7 @@ var navSide = {
     option:{
        name:'',
        navList:[
-          {name:'user-center',desc:'个人中心',href:'./user-center.html'},
+          {name:'user-center',desc:'个人中心',href:'./usercenter.html'},
           {name:'order-list',desc:'我的订单',href:'./order-list.html'},
           {name:'pass-update',desc:'修改密码',href:'./pass-update.html'},
           {name:'about',desc:'关于ToBuy',href:'./about.html'}
